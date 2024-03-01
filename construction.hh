@@ -17,6 +17,10 @@ class MyDetectorConstruction : public G4VUserDetectorConstruction
 
     virtual G4VPhysicalVolume *Construct();
 
+    private: 
+    G4LogicalVolume *logicDetector; //defination of the logical volume, now go to code file to write
+
+
 };
 
 #endif 
