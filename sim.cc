@@ -38,7 +38,9 @@ int main(int argc, char** argv)
 
 
     ui->SessionStart();
-
+    delete ui;
+    delete visManager;
+    delete runManager;
     return 0;
 
 } 
